@@ -1,0 +1,35 @@
+h1 {
+    font-size: 25px;
+    color: #528;
+    font-weight: bold;
+    Font-family: sans-serif;
+}
+
+div{
+  width: 500px;
+}
+
+#p1{
+    Font-family: sans-serif;
+    color: red;
+}
+#p2{
+    Font-family: sans-serif;
+    text-align: right;
+    color: green;
+}
+
+#p3{
+    Font-family: sans-serif;
+    text-align: center;
+    color: blue;
+}
+
+#p4{
+    Font-family: sans-serif;
+    text-align: justify;
+    color: orange;
+}
+#p5{
+	
+}
