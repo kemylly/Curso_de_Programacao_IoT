@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+	<link href="css/angular2.css" rel="stylesheet">
+  </head>
+  <body>
+    <div ng-app="">
+      <h1>Digite seu nome e veja o que acontece.</h1>
+      <p>Esse exemplo é identico ao anterior mas, aqui estamos utilizando uma expressão e não uma diretiva para exibir a variável. </p>
+      <p>Nome : <input type="text" ng-model="nome" placeholder="Digite seu nome"></p>
+	  <p>Idade : <input type="number" ng-model="idade" placeholder="Digite sua idade"></p>
+	  <p></p>
+      <p>Olá {{nome}}</p>
+	  <p>Sua idade é: {{idade}}</p>
+    </div>
+  </body>
+</html>
+
